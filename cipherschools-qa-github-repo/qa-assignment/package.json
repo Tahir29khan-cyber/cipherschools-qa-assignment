@@ -1,0 +1,16 @@
+{
+  "name": "cipherschools-qa-assignment",
+  "version": "1.0.0",
+  "description": "QA Engineer Intern Assignment — E2E and Load Testing for practicesoftwaretesting.com",
+  "type": "module",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:report": "playwright show-report",
+    "test:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^16.4.5"
+  }
+}
